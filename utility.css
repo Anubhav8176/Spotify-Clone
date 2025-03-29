@@ -13,3 +13,26 @@
 .items-center{
     align-items: center;
 }
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.home-lib{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 140px;
+}
