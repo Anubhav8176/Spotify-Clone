@@ -87,6 +87,8 @@ body{
 
 .cardContainer{
     display: flex;
+    padding: 20px 5px;
+    flex-wrap: wrap; 
 }
 
 .card{
@@ -96,10 +98,16 @@ body{
     border-radius: 10px;
     margin-right: 15px;
     margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 .card img{
-    width: 100%;
+    width: 200px;
     object-fit: contain;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
